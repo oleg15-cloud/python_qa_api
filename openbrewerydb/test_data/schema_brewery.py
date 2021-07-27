@@ -1,0 +1,20 @@
+schema_brewery_obj = {
+    "id": {"type": "integer"},
+    "obdb_id": {'type': 'string'},
+    "name": {'type': 'string'},
+    "brewery_type": {'type': 'string'},
+    "street": {'type': 'string', 'nullable': True},
+    "address_2": {'type': 'string', 'nullable': True},
+    "address_3": {'type': 'string', 'nullable': True},
+    "city": {'type': 'string'},
+    "state": {'type': 'string'},
+    "county_province": {'type': 'string', 'nullable': True},
+    "postal_code": {'type': 'string'},
+    "country": {'type': 'string'},
+    "longitude": {"type": "string", 'nullable': True},
+    "latitude": {"type": "string", 'nullable': True},
+    "phone": {'type': 'string', 'nullable': True},
+    "website_url": {'type': 'string', 'nullable': True},
+    "updated_at": {"type": "string"},
+    "created_at": {"type": "string"}
+}
